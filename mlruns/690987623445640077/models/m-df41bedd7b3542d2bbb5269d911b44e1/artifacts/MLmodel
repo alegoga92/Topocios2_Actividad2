@@ -1,0 +1,234 @@
+artifact_path: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/models/m-df41bedd7b3542d2bbb5269d911b44e1/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+is_signature_from_type_hint: false
+mlflow_version: 3.3.2
+model_id: m-df41bedd7b3542d2bbb5269d911b44e1
+model_size_bytes: 9031
+model_uuid: m-df41bedd7b3542d2bbb5269d911b44e1
+prompts: null
+run_id: 0b69e557d689456699acacbe9a225bc3
+signature:
+  inputs: '[{"type": "double", "name": "patient_race_Black", "required": true}, {"type":
+    "double", "name": "patient_race_Hispanic", "required": true}, {"type": "double",
+    "name": "patient_race_Other", "required": true}, {"type": "double", "name": "patient_race_Unknown",
+    "required": true}, {"type": "double", "name": "patient_race_White", "required":
+    true}, {"type": "double", "name": "payer_type_MEDICAID", "required": true}, {"type":
+    "double", "name": "payer_type_MEDICARE ADVANTAGE", "required": true}, {"type":
+    "double", "name": "payer_type_Unknown", "required": true}, {"type": "double",
+    "name": "patient_state_AL", "required": true}, {"type": "double", "name": "patient_state_AR",
+    "required": true}, {"type": "double", "name": "patient_state_AZ", "required":
+    true}, {"type": "double", "name": "patient_state_CA", "required": true}, {"type":
+    "double", "name": "patient_state_CO", "required": true}, {"type": "double", "name":
+    "patient_state_CT", "required": true}, {"type": "double", "name": "patient_state_DC",
+    "required": true}, {"type": "double", "name": "patient_state_DE", "required":
+    true}, {"type": "double", "name": "patient_state_FL", "required": true}, {"type":
+    "double", "name": "patient_state_GA", "required": true}, {"type": "double", "name":
+    "patient_state_HI", "required": true}, {"type": "double", "name": "patient_state_IA",
+    "required": true}, {"type": "double", "name": "patient_state_ID", "required":
+    true}, {"type": "double", "name": "patient_state_IL", "required": true}, {"type":
+    "double", "name": "patient_state_IN", "required": true}, {"type": "double", "name":
+    "patient_state_KS", "required": true}, {"type": "double", "name": "patient_state_KY",
+    "required": true}, {"type": "double", "name": "patient_state_LA", "required":
+    true}, {"type": "double", "name": "patient_state_MA", "required": true}, {"type":
+    "double", "name": "patient_state_MD", "required": true}, {"type": "double", "name":
+    "patient_state_MI", "required": true}, {"type": "double", "name": "patient_state_MN",
+    "required": true}, {"type": "double", "name": "patient_state_MO", "required":
+    true}, {"type": "double", "name": "patient_state_MS", "required": true}, {"type":
+    "double", "name": "patient_state_MT", "required": true}, {"type": "double", "name":
+    "patient_state_NC", "required": true}, {"type": "double", "name": "patient_state_ND",
+    "required": true}, {"type": "double", "name": "patient_state_NE", "required":
+    true}, {"type": "double", "name": "patient_state_NH", "required": true}, {"type":
+    "double", "name": "patient_state_NJ", "required": true}, {"type": "double", "name":
+    "patient_state_NM", "required": true}, {"type": "double", "name": "patient_state_NV",
+    "required": true}, {"type": "double", "name": "patient_state_NY", "required":
+    true}, {"type": "double", "name": "patient_state_OH", "required": true}, {"type":
+    "double", "name": "patient_state_OK", "required": true}, {"type": "double", "name":
+    "patient_state_OR", "required": true}, {"type": "double", "name": "patient_state_PA",
+    "required": true}, {"type": "double", "name": "patient_state_PR", "required":
+    true}, {"type": "double", "name": "patient_state_RI", "required": true}, {"type":
+    "double", "name": "patient_state_SC", "required": true}, {"type": "double", "name":
+    "patient_state_SD", "required": true}, {"type": "double", "name": "patient_state_TN",
+    "required": true}, {"type": "double", "name": "patient_state_TX", "required":
+    true}, {"type": "double", "name": "patient_state_UT", "required": true}, {"type":
+    "double", "name": "patient_state_VA", "required": true}, {"type": "double", "name":
+    "patient_state_WA", "required": true}, {"type": "double", "name": "patient_state_WI",
+    "required": true}, {"type": "double", "name": "patient_state_WV", "required":
+    true}, {"type": "double", "name": "patient_state_WY", "required": true}, {"type":
+    "double", "name": "patient_state_missing_cat", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1742", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1743", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1744", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1745", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1746", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1748", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1749", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_1759", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_19881", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5001", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50011", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50012", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50019", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50021", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5011", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50111", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50112", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50119", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5021", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50211", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50212", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50219", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5031", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50311", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50312", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50319", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5041", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50411", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50412", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50419", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50421", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5051", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50511", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50512", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50519", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50611", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50612", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50619", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5081", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50811", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50812", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50819", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C509", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C5091", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50911", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50912", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50919", "required": true}, {"type": "double",
+    "name": "breast_cancer_diagnosis_code_C50929", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C771", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C772", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C773", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C774", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C775", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C778", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C779", "required": true}, {"type": "double",
+    "name": "metastatic_cancer_diagnosis_code_C7800", "required": true}, {"type":
+    "double", "name": "metastatic_cancer_diagnosis_code_C7801", "required": true},
+    {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7802", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C781", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C782", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7830", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7839", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C784", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C785", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C786", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C787", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7880", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7889", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7900", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7901", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7910", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7911", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7919", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C792", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7931", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7932", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7940", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7949", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7951", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7952", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7960", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7961", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7962", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7970", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7971", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7972", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7981", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7982", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C7989", "required":
+    true}, {"type": "double", "name": "metastatic_cancer_diagnosis_code_C799", "required":
+    true}, {"type": "double", "name": "Region_Northeast", "required": true}, {"type":
+    "double", "name": "Region_South", "required": true}, {"type": "double", "name":
+    "Region_West", "required": true}, {"type": "double", "name": "Region_missing_cat",
+    "required": true}, {"type": "double", "name": "Division_East South Central", "required":
+    true}, {"type": "double", "name": "Division_Middle Atlantic", "required": true},
+    {"type": "double", "name": "Division_Mountain", "required": true}, {"type": "double",
+    "name": "Division_New England", "required": true}, {"type": "double", "name":
+    "Division_Pacific", "required": true}, {"type": "double", "name": "Division_South
+    Atlantic", "required": true}, {"type": "double", "name": "Division_West North
+    Central", "required": true}, {"type": "double", "name": "Division_West South Central",
+    "required": true}, {"type": "double", "name": "Division_missing_cat", "required":
+    true}, {"type": "double", "name": "bmi_category_Normal", "required": true}, {"type":
+    "double", "name": "bmi_category_Obesity I", "required": true}, {"type": "double",
+    "name": "bmi_category_Obesity II", "required": true}, {"type": "double", "name":
+    "bmi_category_Overweight", "required": true}, {"type": "double", "name": "bmi_category_Underweight",
+    "required": true}, {"type": "double", "name": "bmi_category_Unknown", "required":
+    true}, {"type": "double", "name": "patient_zip3", "required": true}, {"type":
+    "double", "name": "patient_age", "required": true}, {"type": "double", "name":
+    "population", "required": true}, {"type": "double", "name": "density", "required":
+    true}, {"type": "double", "name": "age_median", "required": true}, {"type": "double",
+    "name": "age_under_10", "required": true}, {"type": "double", "name": "age_10_to_19",
+    "required": true}, {"type": "double", "name": "age_20s", "required": true}, {"type":
+    "double", "name": "age_30s", "required": true}, {"type": "double", "name": "age_40s",
+    "required": true}, {"type": "double", "name": "age_50s", "required": true}, {"type":
+    "double", "name": "age_60s", "required": true}, {"type": "double", "name": "age_70s",
+    "required": true}, {"type": "double", "name": "age_over_80", "required": true},
+    {"type": "double", "name": "male", "required": true}, {"type": "double", "name":
+    "female", "required": true}, {"type": "double", "name": "married", "required":
+    true}, {"type": "double", "name": "divorced", "required": true}, {"type": "double",
+    "name": "never_married", "required": true}, {"type": "double", "name": "widowed",
+    "required": true}, {"type": "double", "name": "family_size", "required": true},
+    {"type": "double", "name": "family_dual_income", "required": true}, {"type": "double",
+    "name": "income_household_median", "required": true}, {"type": "double", "name":
+    "income_household_under_5", "required": true}, {"type": "double", "name": "income_household_5_to_10",
+    "required": true}, {"type": "double", "name": "income_household_10_to_15", "required":
+    true}, {"type": "double", "name": "income_household_15_to_20", "required": true},
+    {"type": "double", "name": "income_household_20_to_25", "required": true}, {"type":
+    "double", "name": "income_household_25_to_35", "required": true}, {"type": "double",
+    "name": "income_household_35_to_50", "required": true}, {"type": "double", "name":
+    "income_household_50_to_75", "required": true}, {"type": "double", "name": "income_household_75_to_100",
+    "required": true}, {"type": "double", "name": "income_household_100_to_150", "required":
+    true}, {"type": "double", "name": "income_household_150_over", "required": true},
+    {"type": "double", "name": "income_household_six_figure", "required": true}, {"type":
+    "double", "name": "income_individual_median", "required": true}, {"type": "double",
+    "name": "home_ownership", "required": true}, {"type": "double", "name": "housing_units",
+    "required": true}, {"type": "double", "name": "home_value", "required": true},
+    {"type": "double", "name": "rent_median", "required": true}, {"type": "double",
+    "name": "rent_burden", "required": true}, {"type": "double", "name": "education_less_highschool",
+    "required": true}, {"type": "double", "name": "education_highschool", "required":
+    true}, {"type": "double", "name": "education_some_college", "required": true},
+    {"type": "double", "name": "education_bachelors", "required": true}, {"type":
+    "double", "name": "education_graduate", "required": true}, {"type": "double",
+    "name": "education_college_or_above", "required": true}, {"type": "double", "name":
+    "education_stem_degree", "required": true}, {"type": "double", "name": "labor_force_participation",
+    "required": true}, {"type": "double", "name": "unemployment_rate", "required":
+    true}, {"type": "double", "name": "self_employed", "required": true}, {"type":
+    "double", "name": "farmer", "required": true}, {"type": "double", "name": "race_white",
+    "required": true}, {"type": "double", "name": "race_black", "required": true},
+    {"type": "double", "name": "race_asian", "required": true}, {"type": "double",
+    "name": "race_native", "required": true}, {"type": "double", "name": "race_pacific",
+    "required": true}, {"type": "double", "name": "race_other", "required": true},
+    {"type": "double", "name": "race_multiple", "required": true}, {"type": "double",
+    "name": "hispanic", "required": true}, {"type": "double", "name": "disabled",
+    "required": true}, {"type": "double", "name": "poverty", "required": true}, {"type":
+    "double", "name": "limited_english", "required": true}, {"type": "double", "name":
+    "commute_time", "required": true}, {"type": "double", "name": "health_uninsured",
+    "required": true}, {"type": "double", "name": "veteran", "required": true}, {"type":
+    "double", "name": "Ozone", "required": true}, {"type": "double", "name": "PM25",
+    "required": true}, {"type": "double", "name": "N02", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-11-25 05:45:25.653563'

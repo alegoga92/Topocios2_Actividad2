@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/985dddc602f24468b69db9cce57022a9/artifacts
+end_time: 1764040802876
+entry_point_name: ''
+experiment_id: '690987623445640077'
+lifecycle_stage: active
+run_id: 985dddc602f24468b69db9cce57022a9
+run_name: legendary-grub-771
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764040631032
+status: 3
+tags: []
+user_id: alego

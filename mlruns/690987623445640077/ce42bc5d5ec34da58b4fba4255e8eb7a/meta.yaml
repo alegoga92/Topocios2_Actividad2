@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/ce42bc5d5ec34da58b4fba4255e8eb7a/artifacts
+end_time: 1764048109910
+entry_point_name: ''
+experiment_id: '690987623445640077'
+lifecycle_stage: active
+run_id: ce42bc5d5ec34da58b4fba4255e8eb7a
+run_name: auspicious-lynx-743
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764048083976
+status: 3
+tags: []
+user_id: alego

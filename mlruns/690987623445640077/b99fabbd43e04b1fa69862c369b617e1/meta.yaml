@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/b99fabbd43e04b1fa69862c369b617e1/artifacts
+end_time: 1764049580495
+entry_point_name: ''
+experiment_id: '690987623445640077'
+lifecycle_stage: active
+run_id: b99fabbd43e04b1fa69862c369b617e1
+run_name: able-bird-541
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764049561615
+status: 3
+tags: []
+user_id: alego

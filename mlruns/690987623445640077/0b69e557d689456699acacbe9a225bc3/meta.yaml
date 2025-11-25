@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/0b69e557d689456699acacbe9a225bc3/artifacts
+end_time: 1764049536507
+entry_point_name: ''
+experiment_id: '690987623445640077'
+lifecycle_stage: active
+run_id: 0b69e557d689456699acacbe9a225bc3
+run_name: languid-worm-252
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764049507316
+status: 3
+tags: []
+user_id: alego

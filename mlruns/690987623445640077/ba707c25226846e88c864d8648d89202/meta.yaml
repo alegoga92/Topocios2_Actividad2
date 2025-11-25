@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/ba707c25226846e88c864d8648d89202/artifacts
+end_time: 1764040525907
+entry_point_name: ''
+experiment_id: '690987623445640077'
+lifecycle_stage: active
+run_id: ba707c25226846e88c864d8648d89202
+run_name: aged-boar-717
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764040499775
+status: 3
+tags: []
+user_id: alego

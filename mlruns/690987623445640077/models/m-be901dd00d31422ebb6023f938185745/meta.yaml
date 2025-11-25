@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/models/m-be901dd00d31422ebb6023f938185745/artifacts
+creation_timestamp: 1764040512285
+experiment_id: '690987623445640077'
+last_updated_timestamp: 1764040525865
+model_id: m-be901dd00d31422ebb6023f938185745
+model_type: null
+name: model
+source_run_id: ba707c25226846e88c864d8648d89202
+status: 2
+status_message: null

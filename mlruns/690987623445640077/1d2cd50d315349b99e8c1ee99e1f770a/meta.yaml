@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/alego/OneDrive/Documentos/MCD/Semestre3/TopicosSelectosDatos2/../mlruns/690987623445640077/1d2cd50d315349b99e8c1ee99e1f770a/artifacts
+end_time: 1764048155718
+entry_point_name: ''
+experiment_id: '690987623445640077'
+lifecycle_stage: active
+run_id: 1d2cd50d315349b99e8c1ee99e1f770a
+run_name: flawless-hen-192
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764048129015
+status: 3
+tags: []
+user_id: alego
